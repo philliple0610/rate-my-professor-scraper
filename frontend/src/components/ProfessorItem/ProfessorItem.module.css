@@ -1,0 +1,63 @@
+.item {
+  padding: 14px 18px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #343131;
+  margin: 10px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.item:hover {
+  background-color: #adceeb;
+  transform: scale(1.01);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.name, .className, .details, .department, .rating {
+  transition: color 0.3s ease;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item:hover .name {
+  color: #333; 
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #f1eaea;
+  margin: 0;
+}
+
+.item:hover .className {
+  color: #0d8100;
+}
+
+.className {
+  font-size: 0.95rem;
+  color: #72d59d;
+  font-weight: 500;
+}
+
+.item:hover .department {
+  color: #191717;
+}
+
+.department {
+  font-weight: 500;
+  color: #bdbaba;
+}
+
+.rating {
+  font-size: 0.9rem;
+  color: #ffb800;
+  margin: 6px 0 0 0;
+  font-weight: 500;
+}
